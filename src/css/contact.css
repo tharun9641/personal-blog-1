@@ -1,0 +1,53 @@
+.contact-conatiner {
+  min-height: 50vh;
+  padding-bottom: 5em;
+}
+
+.contact-header {
+  width: 50%;
+  margin: auto;
+  margin-top: 0.5em;
+  max-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+  font-family: "Custom-thin";
+  padding: 0.5em 0;
+  border-top: 1px solid rgb(50, 48, 48);
+  border-bottom: 1px solid rgb(50, 48, 48);
+}
+
+.contact-set {
+  display: block;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 3.5vh;
+  margin-top: 2em;
+  padding: 0.5em;
+  border-radius: 10px;
+  min-height: 20vh;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link img {
+  margin: 0.5em;
+  border: 2px solid silver;
+  border-radius: 10px;
+  width: 2em;
+  height: 2em;
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover img {
+  transform: scale(1.25);
+}
+
+.social-link:hover ::after {
+  transform: 1s ease-in;
+}

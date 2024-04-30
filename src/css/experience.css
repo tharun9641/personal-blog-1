@@ -1,0 +1,78 @@
+.exp-container {
+  min-height: 50vh;
+  width: 50%;
+  margin: auto;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+  font-family: "Custom-thin";
+  padding: 0.5em 0;
+  border-top: 1px solid rgb(50, 48, 48);
+  border-bottom: 1px solid rgb(50, 48, 48);
+  max-height: 20vh;
+}
+
+.exp-content {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1em;
+  margin-top: 2em;
+}
+.exp-card {
+  display: block;
+  width: 25%;
+  border: 1px solid white;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.exp-card img {
+  padding-top: 5%;
+  object-fit: fill;
+  width: 90%;
+  height: auto;
+}
+
+.exp-desc {
+  display: flex;
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: end;
+}
+
+.exp-display {
+  text-align: justify;
+  font-size: 2rem;
+  margin-top: 2em;
+  padding: 0.5em;
+  border: 1px solid silver;
+  border-radius: 10px;
+  min-height: 40vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+.set li {
+  list-style-type: none;
+}
+
+.set-title {
+  font-family: "Custom-Bold";
+  margin-bottom: 2.5vh;
+}
+
+.set-title span {
+  font-family: "Custom-thin";
+  display: block;
+}
+
+.set-time {
+  font-size: medium;
+}

@@ -1,0 +1,37 @@
+.skill-container {
+  min-height: 60vh;
+  padding-bottom: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+  font-family: "Custom-thin";
+  padding: 0.5em 0;
+  border-top: 1px solid rgb(50, 48, 48);
+  border-bottom: 1px solid rgb(50, 48, 48);
+  max-height: 20vh;
+}
+.skill-collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5vw;
+}
+
+.skill-item {
+  border: 1px solid black;
+  background-color: lightgreen;
+  color: black;
+  border-radius: 10px;
+  padding: 0.5em;
+  position: static;
+}
+
+.skill-sub {
+  display: block;
+  width: 100%;
+}
