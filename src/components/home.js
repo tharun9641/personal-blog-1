@@ -3,6 +3,7 @@ import "../css/home.css";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { useRef } from "react";
+import astro from "../logo/astronaut.jpg";
 
 const Home = () => {
   const title = "Tharun Prasad";
@@ -26,6 +27,9 @@ const Home = () => {
             </Row>
             <Row>
               <Col>{role}</Col>
+            </Row>
+            <Row className="floating-img">
+              <img src={astro} alt="floating around..."></img>
             </Row>
           </Container>
         </motion.div>

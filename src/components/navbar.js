@@ -7,12 +7,12 @@ const Navbar = () => {
     <section className="nav-container">
       <div className="nav-block">
         <div className="sub-header">
-          <Link to="home" smooth={true}>
-            <img src={tp} alt="" />
+          <Link to="home" smooth={true} offset={-150}>
+            <img src={tp} alt="Tharun-prasad" />
           </Link>
         </div>
         <div className="sub-header">
-          <Link to="about" smooth={true}>
+          <Link to="about" smooth={true} offset={-150}>
             About
           </Link>
         </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="sub-header">
-          <Link to="experience" smooth={true}>
+          <Link to="experience" smooth={true} offset={-150}>
             Experience
           </Link>
         </div>

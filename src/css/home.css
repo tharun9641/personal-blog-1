@@ -16,3 +16,34 @@ body {
   font-size: 10vw;
   font-family: "Custom-thin";
 }
+
+/* .floating-img {
+  position: absolute;
+  top: 25vh;
+} */
+
+.floating-img img {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 100%;
+  animation: moveUpDown 10s infinite linear;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translate(-30vw, 5vh);
+  }
+  25% {
+    transform: translate(-30vw, 2.5vh);
+  }
+  50% {
+    transform: translate(-30vw, 0vh);
+  }
+  75% {
+    transform: translate(-30vw, 2.5vh);
+  }
+  100% {
+    transform: translate(-30vw, 5vh);
+  }
+}

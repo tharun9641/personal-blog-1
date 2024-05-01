@@ -19,7 +19,6 @@ function App() {
         <div className="body-content">
           <About />
         </div>
-
         <div className="body-content">
           <Skill />
         </div>

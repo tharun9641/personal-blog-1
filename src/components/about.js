@@ -1,7 +1,13 @@
 import { useInView } from "react-intersection-observer";
 import "../css/about.css";
 import profile from "../logo/tharun-cover.jpg";
-import { about_bio, about_content } from "../other_asset/data.js";
+import {
+  Languages,
+  about_bio,
+  about_content,
+  countries,
+  todo,
+} from "../other_asset/data.js";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 
@@ -12,6 +18,7 @@ const About = () => {
     visible: { opacity: 1, y: 0 },
     hidden: { opacity: 0, y: 50 },
   };
+
   useEffect(() => {
     if (inView) {
       control.start("visible");
@@ -37,6 +44,59 @@ const About = () => {
             <div className="about-bio">{about_bio}</div>
           </div>
           <div className="about-content">{about_content}</div>
+          <div className="fun-fact">
+            <div className="fun-header">Trivia about me</div>
+            <span className="fun-sub">Countries I have been to :</span>
+            <div className="flags">
+              {countries.map((item, index) => {
+                return (
+                  <motion.div
+                    key={index}
+                    initial={{ y: 20, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.05 * index }}>
+                    <img src={item} alt="Country Flag" />
+                  </motion.div>
+                );
+              })}
+            </div>
+            <div>
+              <span className="fun-sub">Languages I speak :</span>
+              <div>
+                {Languages.map((item, index) => {
+                  return (
+                    <motion.span
+                      className="lang"
+                      key={index}
+                      initial={{ y: -50, opacity: 0 }}
+                      whileInView={{ y: 0, opacity: 1 }}
+                      transition={{ delay: 0.05 * index }}>
+                      {" "}
+                      {item}{" "}
+                    </motion.span>
+                  );
+                })}
+              </div>
+            </div>
+            <div>
+              <span className="fun-sub">Other interest's :</span>
+              <div>
+                {todo.map((item, index) => {
+                  return (
+                    <motion.span
+                      className="lang"
+                      key={index}
+                      initial={{ y: -50, opacity: 0 }}
+                      whileInView={{ y: 0, opacity: 1 }}
+                      transition={{ delay: 0.05 * index }}>
+                      {" "}
+                      {item}{" "}
+                    </motion.span>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>

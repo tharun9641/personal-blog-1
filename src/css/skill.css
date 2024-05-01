@@ -1,9 +1,11 @@
 .skill-container {
-  min-height: 60vh;
+  min-height: 50vh;
   padding-bottom: 5em;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
+  margin: auto;
 }
 .skill-header {
   display: flex;
@@ -17,21 +19,23 @@
   max-height: 20vh;
 }
 .skill-collection {
+  padding: 0.5rem 0;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5vw;
 }
 
 .skill-item {
-  border: 1px solid black;
-  background-color: lightgreen;
-  color: black;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
   border-radius: 10px;
-  padding: 0.5em;
-  position: static;
+  padding: 0 0.25rem;
+  font-size: 2rem;
 }
 
 .skill-sub {
   display: block;
   width: 100%;
+  font-size: 2.5rem;
 }

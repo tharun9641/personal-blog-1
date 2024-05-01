@@ -39,6 +39,7 @@ body::-webkit-scrollbar {
 .nav-bar {
   position: sticky;
   top: 0;
+  z-index: 9999;
 }
 
 .app-body {

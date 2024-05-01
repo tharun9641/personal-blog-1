@@ -1,4 +1,10 @@
-import { BackEnd, Cloud, Database, FrontEnd } from "../other_asset/data";
+import {
+  BackEnd,
+  Cloud,
+  Database,
+  FrontEnd,
+  testing,
+} from "../other_asset/data";
 import "../css/skill.css";
 import { motion } from "framer-motion";
 
@@ -9,23 +15,21 @@ const Skill = () => {
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
           <motion.div
             className="skill-header"
-            initial={{ y: 50 }}
+            initial={{ y: 25 }}
             whileInView={{ y: 0 }}>
             SKILLS
           </motion.div>
           <motion.div
             className="skill-collection"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 25 }}
             whileInView={{ opacity: 1, y: 0 }}>
-            <span className="skill-sub">
-              <p>Front End :</p>
-            </span>
+            <span className="skill-sub">Front End :</span>
             {FrontEnd.map((item, index) => {
               return (
                 <motion.div
                   className="skill-item"
                   id={item}
-                  initial={{ opacity: 0, y: 50 }}
+                  initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}>
                   {item}
@@ -36,17 +40,15 @@ const Skill = () => {
 
           <motion.div
             className="skill-collection"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 25 }}
             whileInView={{ opacity: 1, y: 0 }}>
-            <span className="skill-sub">
-              <p>Back End :</p>
-            </span>
+            <span className="skill-sub">Back End :</span>
             {BackEnd.map((item, index) => {
               return (
                 <motion.div
                   className="skill-item"
                   id={item}
-                  initial={{ opacity: 0, y: 50 }}
+                  initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}>
                   {item}
@@ -57,17 +59,15 @@ const Skill = () => {
 
           <motion.div
             className="skill-collection"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 25 }}
             whileInView={{ opacity: 1, y: 0 }}>
-            <span className="skill-sub">
-              <p>Database :</p>
-            </span>
+            <span className="skill-sub">Database :</span>
             {Database.map((item, index) => {
               return (
                 <motion.div
                   className="skill-item"
                   id={item}
-                  initial={{ opacity: 0, y: 50 }}
+                  initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}>
                   {item}
@@ -78,17 +78,15 @@ const Skill = () => {
 
           <motion.div
             className="skill-collection"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 25 }}
             whileInView={{ opacity: 1, y: 0 }}>
-            <span className="skill-sub">
-              <p>Cloud :</p>
-            </span>
+            <span className="skill-sub">Cloud :</span>
             {Cloud.map((item, index) => {
               return (
                 <motion.div
                   className="skill-item"
                   id={item}
-                  initial={{ opacity: 0, y: 50 }}
+                  initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}>
                   {item}
@@ -98,11 +96,21 @@ const Skill = () => {
           </motion.div>
           <motion.div
             className="skill-collection"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 25 }}
             whileInView={{ opacity: 1, y: 0 }}>
-            <span className="skill-sub">
-              <p>CI / CD :</p>
-            </span>
+            <span className="skill-sub">Testing Tools :</span>
+            {testing.map((item, index) => {
+              return (
+                <motion.div
+                  className="skill-item"
+                  id={item}
+                  initial={{ opacity: 0, x: -50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.05 }}>
+                  {item}
+                </motion.div>
+              );
+            })}
           </motion.div>
         </motion.div>
       </div>
