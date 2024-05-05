@@ -34,11 +34,13 @@ body {
   font-size: 2rem;
 }
 
-.nav-block * :hover {
+/* .nav-block * :hover {
   background-color: black;
   color: beige;
   transition: 0.5s linear;
-}
+} */
+
+/* seems to be working on click and set to active link rather than hover */
 
 .sub-header {
   margin: 0 0.5rem;

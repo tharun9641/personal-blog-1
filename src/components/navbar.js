@@ -17,7 +17,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="sub-header">
-          <Link to="skills" smooth={true}>
+          <Link to="skills" smooth={true} offset={-150}>
             Skills
           </Link>
         </div>

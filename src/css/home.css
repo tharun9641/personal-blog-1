@@ -27,7 +27,7 @@ body {
   width: 15rem;
   object-fit: cover;
   border-radius: 100%;
-  animation: moveUpDown 10s infinite linear;
+  animation: moveUpDown 5s infinite linear;
 }
 
 @keyframes moveUpDown {

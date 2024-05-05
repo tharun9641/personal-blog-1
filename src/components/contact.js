@@ -12,8 +12,8 @@ const Contact = () => {
         <div className="contact-set">
           <p>
             {" "}
-            Thanks for visiting my site, if you like to get it touch with me
-            click one of the below!
+            Thank you for visiting my website! Connect with Me I'd love to hear
+            from you. Please click on one of the options below to get in touch.
           </p>
           <div className="icon">
             <motion.div

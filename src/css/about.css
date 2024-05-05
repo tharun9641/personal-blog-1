@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   font-size: 10vw;
-  font-family: "Custom-thin";
+  font-family: "Custom-bold";
   padding: 0.5em 0;
   border-top: 1px solid rgb(50, 48, 48);
   border-bottom: 1px solid rgb(50, 48, 48);
@@ -40,7 +40,7 @@
 .about-bio {
   width: calc(100% - 10vw);
   /* font-family: "Custom-thin"; */
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: justify;
 }
 

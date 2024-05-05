@@ -8,25 +8,27 @@ import Contact from "./components/contact";
 
 function App() {
   return (
-    <div className="App">
-      <div className="nav-bar">
-        <Navbar />
-      </div>
-      <div className="app-body">
-        <div>
-          <Home />
+    <div>
+      <div className="App">
+        <div className="nav-bar">
+          <Navbar />
         </div>
-        <div className="body-content">
-          <About />
-        </div>
-        <div className="body-content">
-          <Skill />
-        </div>
-        <div className="body-content">
-          <Experience />
-        </div>
-        <div className="body-content">
-          <Contact />
+        <div className="app-body">
+          <div>
+            <Home />
+          </div>
+          <div className="body-content">
+            <About />
+          </div>
+          <div className="body-content">
+            <Skill />
+          </div>
+          <div className="body-content">
+            <Experience />
+          </div>
+          <div className="body-content">
+            <Contact />
+          </div>
         </div>
       </div>
     </div>

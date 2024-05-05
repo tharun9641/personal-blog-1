@@ -23,10 +23,13 @@ export const Languages = [
 export const todo = ["Cooking", "Travelling", "Badminton", "Origami"];
 
 export const about_bio =
-  "Hey! I'm Tharun. I'm passionate about web development, and I love exploring cutting-edge technologies. I'm always eager to learn and grow, and I enjoy experimenting with new tech to see how it can enhance existing projects.";
+  "I'm a passionate web developer with a strong interest in exploring cutting-edge technologies. I'm a lifelong learner who thrives on challenges and enjoys experimenting with new tools to enhance existing projects.";
 
-export let about_content = `Lately, I've been diving into the exciting world of animations using CSS, framer motion, and even After Effects. It's been a blast unleashing my creativity and adding dynamic flair to my projects! Currently based in London, I'm on the lookout for opportunities to work as an software developer. If you're in need of someone who's not only skilled but also loves what they do, then look no further! Let's connect
-  and create something awesome together.`;
+export let about_content = `Recently, I've been delving into the world of CSS animations, Framer Motion, and even After Effects. It's been incredibly rewarding to unleash my creativity and add dynamic elements to my projects.
+
+Currently based in London, I'm seeking opportunities to leverage my skills as a software developer.  I'm not only skilled in web development, but I also bring a genuine passion for the craft.
+
+If you're looking for a skilled and enthusiastic developer, I'd love to connect and discuss how we can collaborate to create something truly unique.`;
 
 export const FrontEnd = [
   "React",
@@ -103,4 +106,13 @@ export const Exp = [
 export const exp_foh = [
   "Embarking on a new journey in hospitality was like stepping into a vibrant world of opportunity. As I navigated the intricacies of restaurant operations, I discovered the art of efficient delegation, optimizing serving times, and fostering teamwork among our diverse staff. Through hands-on leadership and interactive sessions, I cultivated a positive work environment where every team member felt valued and empowered to contribute their best.",
   "In the realm of financial management, I honed my skills in accurate cash reconciliation and record-keeping, ensuring the smooth financial operation of the establishment. With each challenge I faced, I found new ways to innovate and inspire, creating lasting connections and memorable experiences for both customers and colleagues alike.",
+];
+
+export const softskills = [
+  "Communication",
+  "Problem-Solving",
+  "Collaboration & Teamwork",
+  "Adaptability ",
+  " Flexibility",
+  "Time Management",
 ];

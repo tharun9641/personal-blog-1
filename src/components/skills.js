@@ -3,6 +3,7 @@ import {
   Cloud,
   Database,
   FrontEnd,
+  softskills,
   testing,
 } from "../other_asset/data";
 import "../css/skill.css";
@@ -29,6 +30,7 @@ const Skill = () => {
                 <motion.div
                   className="skill-item"
                   id={item}
+                  key={index}
                   initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}>
@@ -48,6 +50,7 @@ const Skill = () => {
                 <motion.div
                   className="skill-item"
                   id={item}
+                  key={index}
                   initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}>
@@ -67,6 +70,7 @@ const Skill = () => {
                 <motion.div
                   className="skill-item"
                   id={item}
+                  key={index}
                   initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}>
@@ -86,6 +90,7 @@ const Skill = () => {
                 <motion.div
                   className="skill-item"
                   id={item}
+                  key={index}
                   initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.05 }}>
@@ -104,6 +109,27 @@ const Skill = () => {
                 <motion.div
                   className="skill-item"
                   id={item}
+                  key={index}
+                  initial={{ opacity: 0, x: -50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.05 }}>
+                  {item}
+                </motion.div>
+              );
+            })}
+          </motion.div>
+
+          <motion.div
+            className="skill-collection"
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}>
+            <span className="skill-sub">Soft skills :</span>
+            {softskills.map((item, index) => {
+              return (
+                <motion.div
+                  className="skill-item"
+                  id={item}
+                  key={index}
                   initial={{ opacity: 0, x: -50 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.05 }}>

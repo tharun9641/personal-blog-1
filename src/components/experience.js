@@ -23,7 +23,7 @@ const Experience = () => {
           className="exp-header"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}>
-          Experience
+          EXPERIENCE
         </motion.div>
         <Container>
           <div className="exp-content">
@@ -46,6 +46,9 @@ const Experience = () => {
                         {item.role}
                         <span id={item.code}>{item.company}</span>
                         <span id={item.code}>{item.time}</span>
+                        <span className="click" id={item.code}>
+                          view more
+                        </span>
                       </div>
                     </div>
                     <div
