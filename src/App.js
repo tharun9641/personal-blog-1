@@ -5,7 +5,6 @@ import About from "./components/about";
 import Skill from "./components/skills";
 import Experience from "./components/experience";
 import Contact from "./components/contact";
-import LandingPage from "./components/landing";
 //import { useEffect, useState } from "react";
 
 function App() {
