@@ -20,7 +20,13 @@ export const Languages = [
   "Japanese",
 ];
 
-export const todo = ["Cooking", "Travelling", "Badminton", "Origami"];
+export const todo = [
+  "Cooking",
+  "Travelling",
+  "Badminton",
+  "Origami",
+  "Sketching",
+];
 
 export const about_bio =
   "I'm a passionate web developer with a strong interest in exploring cutting-edge technologies. I'm a lifelong learner who thrives on challenges and enjoys experimenting with new tools to enhance existing projects.";

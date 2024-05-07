@@ -9,10 +9,16 @@ const Experience = () => {
   const [isVisible, setVisible] = useState(false);
 
   const ToggleTab = (e) => {
+    let togglevalue = !isVisible;
     if (showTab === e.target.id) {
-      setVisible(!isVisible);
+      setVisible(togglevalue);
     } else {
       setVisible(true);
+    }
+    if (togglevalue === false) {
+      e.target.innerText = "view more";
+    } else {
+      e.target.innerText = "view less";
     }
   };
 
@@ -34,21 +40,21 @@ const Experience = () => {
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}>
-                    <div
-                      className="exp-card"
-                      id={item.code}
-                      onClick={(e) => {
-                        ToggleTab(e);
-                        setTab(item.code);
-                      }}>
+                    <div className="exp-card" id={item.code}>
                       <img src={item.img} alt={item.code} id={item.code} />
                       <div className="exp-desc" id={item.code}>
                         {item.role}
                         <span id={item.code}>{item.company}</span>
                         <span id={item.code}>{item.time}</span>
-                        <span className="click" id={item.code}>
+                        <div
+                          className="item-click"
+                          id={item.code}
+                          onClick={(e) => {
+                            ToggleTab(e);
+                            setTab(item.code);
+                          }}>
                           view more
-                        </span>
+                        </div>
                       </div>
                     </div>
                     <div

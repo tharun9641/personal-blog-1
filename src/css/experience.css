@@ -97,10 +97,43 @@
   border: 1px solid black;
 }
 
-.click {
-  display: block;
-  width: 95%;
+.item-click {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 2rem;
   text-align: center;
   font-size: 0.75rem !important;
-  text-decoration: underline;
+  font-family: "Custom-bold" !important;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 2.5%;
+  border-radius: 10px;
+  background-color: white;
+  color: green;
+  z-index: 1;
+}
+
+.item-click::before {
+  content: "";
+  z-index: -1;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+
+  top: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(1);
+  transition: transform 0.5s ease;
+}
+.item-click:hover::before {
+  transform-origin: right;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
 }
