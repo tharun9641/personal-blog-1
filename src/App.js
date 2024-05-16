@@ -5,6 +5,7 @@ import About from "./components/about";
 import Skill from "./components/skills";
 import Experience from "./components/experience";
 import Contact from "./components/contact";
+import { motion } from "framer-motion";
 //import { useEffect, useState } from "react";
 
 function App() {
@@ -16,7 +17,11 @@ function App() {
   //   }, 2500);
   // }, []);
   return (
-    <div className="App">
+    <motion.div
+      className="App"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 0.5 }}>
       <div className="nav-bar">
         <Navbar />
       </div>
@@ -37,7 +42,7 @@ function App() {
           <Contact />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 export default App;
