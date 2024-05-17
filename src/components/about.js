@@ -1,6 +1,7 @@
 import { useInView } from "react-intersection-observer";
 import "../css/about.css";
 import profile from "../logo/tharun-cover.jpg";
+import location from "../logo/location.png";
 import {
   Languages,
   about_bio,
@@ -40,6 +41,10 @@ const About = () => {
           <div className="about-body">
             <div className="profile-pic">
               <img src={profile} alt="Tharun"></img>
+              <div className="profile-text">
+                <img src={location} alt="location"></img>
+                <h1>London</h1>
+              </div>
             </div>
             <div className="about-bio">{about_bio}</div>
           </div>

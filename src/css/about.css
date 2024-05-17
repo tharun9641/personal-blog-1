@@ -35,6 +35,30 @@
   height: 15rem;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  z-index: 1;
+}
+
+.profile-text {
+  display: flex;
+  position: absolute;
+  height: 15rem;
+  align-items: center;
+  z-index: 0;
+  opacity: 0;
+}
+
+.profile-text img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.profile-pic img:hover {
+  opacity: 0.5;
+  transition: 0.25s ease-in-out;
+}
+.profile-pic img:hover + .profile-text {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
 }
 
 .about-bio {

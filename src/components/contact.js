@@ -65,7 +65,7 @@ const Contact = () => {
                 className="main-icon"
                 animate={
                   getImage
-                    ? { opacity: 1, x: 10, y: 10 }
+                    ? { opacity: 1, x: 0, y: 0 }
                     : { opacity: 0, x: 50, y: 50 }
                 }
                 transition={{ duration: 0.5 }}>
@@ -80,7 +80,7 @@ const Contact = () => {
                 className="main-icon"
                 animate={
                   getImage
-                    ? { opacity: 1, x: -10, y: 10 }
+                    ? { opacity: 1, x: -0, y: 0 }
                     : { opacity: 0, x: -50, y: 50 }
                 }
                 transition={{ duration: 0.5 }}>
@@ -106,7 +106,7 @@ const Contact = () => {
                 className="main-icon"
                 animate={
                   getImage
-                    ? { opacity: 1, x: 10, y: -10 }
+                    ? { opacity: 1, x: 0, y: -0 }
                     : { opacity: 0, x: 50, y: -50 }
                 }
                 transition={{ duration: 0.5 }}>
@@ -121,7 +121,7 @@ const Contact = () => {
                 className="main-icon"
                 animate={
                   getImage
-                    ? { opacity: 1, x: -10, y: -10 }
+                    ? { opacity: 1, x: -0, y: -0 }
                     : { opacity: 0, x: -50, y: -50 }
                 }
                 transition={{ duration: 0.5 }}>
