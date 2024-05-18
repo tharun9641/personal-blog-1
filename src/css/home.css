@@ -11,10 +11,11 @@ body {
   min-height: 80vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+
   text-align: right;
   font-size: 10vw;
   font-family: "Custom-thin";
+  padding-top: 15vh;
 }
 
 /* .floating-img {

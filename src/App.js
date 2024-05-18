@@ -6,7 +6,6 @@ import Skill from "./components/skills";
 import Experience from "./components/experience";
 import Contact from "./components/contact";
 import { motion } from "framer-motion";
-import Logo from "./components/logo";
 //import { useEffect, useState } from "react";
 
 function App() {
@@ -26,11 +25,8 @@ function App() {
       <div className="nav-bar">
         <Navbar />
       </div>
-      <div style={{ position: "fixed", zIndex: 999, right: "1rem" }}>
-        <Logo />
-      </div>
       <div className="app-body">
-        <div>
+        <div className="body-content">
           <Home />
         </div>
         <div className="body-content">

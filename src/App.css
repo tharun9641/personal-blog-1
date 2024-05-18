@@ -37,9 +37,10 @@ body::-webkit-scrollbar {
   cursor: pointer;
 }
 .nav-bar {
-  position: sticky;
+  width: 100%;
+  position: fixed;
   top: 0;
-  z-index: 9999;
+  z-index: 999;
 }
 
 .app-body {
@@ -50,4 +51,8 @@ body::-webkit-scrollbar {
 .body-content {
   min-height: 50vh;
   margin-top: 2em;
+}
+
+.logo-block {
+  background-color: white;
 }
