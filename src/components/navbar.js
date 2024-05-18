@@ -2,8 +2,17 @@ import "../css/nav.css";
 import { Link } from "react-scroll";
 import tp from "../logo/TP.png";
 import Logo from "./logo";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
+  const [isMobile, setMobile] = useState(false);
+  const CheckDevice = () => {
+    return /Mobi|Android/i.test(navigator.userAgent);
+  };
+
+  useEffect(() => {
+    setMobile(CheckDevice());
+  }, []);
   return (
     <section className="nav-container">
       <div className="nav-block">
@@ -32,6 +41,31 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
+        {!isMobile && (
+          <div className="sub-translate">
+            <div className="sub-head">Tranlate?</div>
+            <div className="sub-item">
+              <div>
+                <a href="https://tharunprasad.netlify.app/">English</a>
+              </div>
+              <div>
+                <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=en&_x_tr_pto=wapp">
+                  German
+                </a>
+              </div>
+              <div>
+                <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en&_x_tr_pto=wapp">
+                  Chinese
+                </a>
+              </div>
+              <div>
+                <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=en&_x_tr_pto=wapp">
+                  Japanese
+                </a>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
       <div style={{ position: "fixed", right: "2.5%", top: "7.5%" }}>
         <Logo />

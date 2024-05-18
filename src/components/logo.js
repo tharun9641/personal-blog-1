@@ -13,7 +13,6 @@ const Logo = () => {
     const logo = document.getElementById("logo");
     setTimeout(() => {
       logo.click();
-      console.log("item clicked");
     }, 1500);
   }, []);
 
