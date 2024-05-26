@@ -17,7 +17,7 @@ export const Languages = [
   "Telugu",
   "Mandarin",
   "Deutsche",
-  "Japanese",
+  "Japanese Language",
 ];
 
 export const todo = [

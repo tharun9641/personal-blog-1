@@ -55,12 +55,12 @@ const Navbar = () => {
               </div>
               <div>
                 <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en&_x_tr_pto=wapp">
-                  Chinese
+                  Mandarin
                 </a>
               </div>
               <div>
                 <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=en&_x_tr_pto=wapp">
-                  Japanese
+                  Japanese Language
                 </a>
               </div>
             </div>
