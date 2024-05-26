@@ -37,7 +37,7 @@ const Logo = () => {
           }
           transition={{ duration: 0.125 }}>
           <a
-            href="https://www.linkedin.com/in/tharun-prasad/"
+            href="https://www.linkedin.com/in/tharun-pp/"
             target="_blank"
             rel="noreferrer">
             <img src={linkedin} alt="linkedin" />

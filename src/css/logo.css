@@ -32,6 +32,6 @@
 }
 
 .fixed-logo-1 img:hover {
-  transform: scale(1.2);
+  transform: scale(1.025);
   transition: 0.125s ease;
 }

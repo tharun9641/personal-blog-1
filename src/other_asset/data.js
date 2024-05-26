@@ -15,7 +15,7 @@ export const Languages = [
   "English",
   "Tamil",
   "Telugu",
-  "Chinese",
+  "Mandarin",
   "Deutsche",
   "Japanese",
 ];
