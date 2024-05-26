@@ -13,10 +13,10 @@ import sse from "../logo/SSE.jpg";
 export const countries = [ind, gb, cz, fr, de, cn, sp];
 export const Languages = [
   "English",
-  "Tamil",
   "Telugu",
-  "Mandarin",
+  "Tamil",
   "Deutsche",
+  "Mandarin",
   "Japanese",
 ];
 
