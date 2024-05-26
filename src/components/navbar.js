@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
         {!isMobile && (
           <div className="sub-translate">
-            <div className="sub-head">Tranlate</div>
+            <div className="sub-head">Translate</div>
             <div className="sub-item">
               <div>
                 <a href="https://tharunprasad.netlify.app/">English</a>
@@ -60,7 +60,7 @@ const Navbar = () => {
               </div>
               <div>
                 <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=en&_x_tr_pto=wapp">
-                  Japanese Language
+                  Japanese
                 </a>
               </div>
             </div>
