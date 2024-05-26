@@ -14,6 +14,9 @@ const Logo = () => {
     setTimeout(() => {
       logo.click();
     }, 1500);
+    setTimeout(() => {
+      logo.click();
+    }, 3000);
   }, []);
 
   const ShowIcon = () => {

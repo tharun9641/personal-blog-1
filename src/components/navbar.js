@@ -37,28 +37,33 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="sub-header">
+          <Link to="projects" smooth={true} offset={-150}>
+            Project
+          </Link>
+        </div>
+        <div className="sub-header">
           <Link to="contact" smooth={true}>
             Contact
           </Link>
         </div>
         {!isMobile && (
           <div className="sub-translate">
-            <div className="sub-head">Translate</div>
+            <div className="sub-header">Translate</div>
             <div className="sub-item">
-              <div>
+              <div className="sub-header">
                 <a href="https://tharunprasad.netlify.app/">English</a>
               </div>
-              <div>
+              <div className="sub-header">
                 <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=en&_x_tr_pto=wapp">
                   German
                 </a>
               </div>
-              <div>
+              <div className="sub-header">
                 <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=zh-CN&_x_tr_hl=en&_x_tr_pto=wapp">
                   Mandarin
                 </a>
               </div>
-              <div>
+              <div className="sub-header">
                 <a href="https://tharunprasad-netlify-app.translate.goog/?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=en&_x_tr_pto=wapp">
                   Japanese
                 </a>

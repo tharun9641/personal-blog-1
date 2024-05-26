@@ -6,6 +6,7 @@ import Skill from "./components/skills";
 import Experience from "./components/experience";
 import Contact from "./components/contact";
 import { motion } from "framer-motion";
+import Project from "./components/project";
 //import { useEffect, useState } from "react";
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
         </div>
         <div className="body-content">
           <Skill />
+        </div>
+        <div className="body-content">
+          <Project />
         </div>
         <div className="body-content">
           <Experience />

@@ -9,6 +9,8 @@ import foh from "../logo/FOH.jpg";
 import se from "../logo/SE.jpg";
 import set from "../logo/SET.jpg";
 import sse from "../logo/SSE.jpg";
+import rps from "../logo/rock-paper-scissor.jpg";
+import mg from "../logo/memory.jpg";
 
 export const countries = [ind, gb, cz, fr, de, cn, sp];
 export const Languages = [
@@ -121,4 +123,19 @@ export const softskills = [
   "Adaptability ",
   " Flexibility",
   "Time Management",
+];
+
+export const Projects = [
+  {
+    name: "Rock - Paper - Scissor",
+    link: "https://gaming102.netlify.app",
+    about: "A simple game of rock paper scissors.",
+    img: rps,
+  },
+  {
+    name: "Memory Game",
+    link: "https://game-201.netlify.app",
+    about: "How good is your memory? try and match them all.",
+    img: mg,
+  },
 ];
