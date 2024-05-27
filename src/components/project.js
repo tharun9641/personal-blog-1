@@ -16,6 +16,9 @@ const Project = () => {
           transition={{ delay: 0.25 }}>
           PROJECT
         </motion.div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <h1>Game zone</h1>
+        </div>
         <div className="project-grid">
           {Projects.map((item, index) => {
             return (
