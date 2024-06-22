@@ -60,7 +60,7 @@ const About = () => {
                     initial={{ y: 20, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.05 * index }}>
-                    <img src={item} alt="Country Flag" />
+                    <img src={item.url} alt={item.name} tooltip={item.name} />
                   </motion.div>
                 );
               })}

@@ -5,6 +5,7 @@ import fr from "../logo/france.png";
 import de from "../logo/germany.png";
 import cn from "../logo/china.png";
 import sp from "../logo/spain.png";
+import hz from "../logo/croatia.png";
 import foh from "../logo/FOH.jpg";
 import se from "../logo/SE.jpg";
 import set from "../logo/SET.jpg";
@@ -12,7 +13,16 @@ import sse from "../logo/SSE.jpg";
 import rps from "../logo/rock-paper-scissor.jpg";
 import mg from "../logo/memory.jpg";
 
-export const countries = [ind, gb, cz, fr, de, cn, sp];
+export const countries = [
+  { url: ind, name: "India" },
+  { url: gb, name: "Great Britain" },
+  { url: cz, name: "Czech Republic" },
+  { url: fr, name: "France" },
+  { url: de, name: "Germany" },
+  { url: cn, name: "China" },
+  { url: sp, name: "Spain" },
+  { url: hz, name: "Croatia" },
+];
 export const Languages = [
   "English",
   "Telugu",
