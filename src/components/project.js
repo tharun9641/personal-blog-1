@@ -25,8 +25,8 @@ const Project = () => {
               <motion.div
                 className="project-card"
                 key={index}
-                initial={{ opacity: 0, y: 25, rotate: 180 }}
-                whileInView={{ opacity: 1, y: 0, rotate: 360 }}
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 whileHover={{ scale: 1.1 }}
                 transition={{ delay: index * 0.1, type: "spring" }}>
                 <a href={item.link} target="_blank" rel="noreferrer">

@@ -12,6 +12,7 @@ import set from "../logo/SET.jpg";
 import sse from "../logo/SSE.jpg";
 import rps from "../logo/rock-paper-scissor.jpg";
 import mg from "../logo/memory.jpg";
+import nd from "../logo/netherlands.png";
 
 export const countries = [
   { url: ind, name: "India" },
@@ -22,6 +23,7 @@ export const countries = [
   { url: cn, name: "China" },
   { url: sp, name: "Spain" },
   { url: hz, name: "Croatia" },
+  { url: nd, name: "Netherlands" },
 ];
 export const Languages = [
   "English",
