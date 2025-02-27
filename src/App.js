@@ -6,7 +6,7 @@ import Skill from "./components/skills";
 import Experience from "./components/experience";
 import Contact from "./components/contact";
 import { motion } from "framer-motion";
-import Project from "./components/project";
+// import Project from "./components/project";
 //import { useEffect, useState } from "react";
 
 function App() {
