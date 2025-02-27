@@ -36,15 +36,15 @@ function App() {
         <div className="body-content">
           <Skill />
         </div>
-        {/* <div className="body-content">
-          <Project />
-        </div> */}
         <div className="body-content">
           <Experience />
         </div>
         <div className="body-content">
           <Contact />
         </div>
+        {/* <div className="body-content">
+          <Project />
+        </div> */}
       </div>
     </motion.div>
   );
