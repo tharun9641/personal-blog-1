@@ -56,7 +56,7 @@ body {
 
 .sub-translate {
   display: block;
-  overflow: hidden;
+  position: relative;
 }
 
 .sub-item {

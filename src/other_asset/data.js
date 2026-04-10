@@ -13,6 +13,8 @@ import sse from "../logo/SSE.jpg";
 import rps from "../logo/rock-paper-scissor.jpg";
 import mg from "../logo/memory.jpg";
 import nd from "../logo/netherlands.png";
+import th from "../logo/thailand.png";
+import sde from "../logo/SDE.jpg";
 
 export const countries = [
   { url: ind, name: "India" },
@@ -24,6 +26,7 @@ export const countries = [
   { url: sp, name: "Spain" },
   { url: hz, name: "Croatia" },
   { url: nd, name: "Netherlands" },
+  { url: th, name: "Thailand" },
 ];
 export const Languages = [
   "English",
@@ -47,26 +50,45 @@ export const about_bio =
 
 export let about_content = `Recently, I've been delving into the world of CSS animations, Framer Motion, and even After Effects. It's been incredibly rewarding to unleash my creativity and add dynamic elements to my projects.
 
-Currently based in London, I'm seeking opportunities to leverage my skills as a software developer.  I'm not only skilled in web development, but I also bring a genuine passion for the craft.
+Currently based in Bangalore, I'm actively seeking opportunities to leverage my skills as a software developer.  I'm not only skilled in web development, but I also bring a genuine passion for the craft.
 
 If you're looking for a skilled and enthusiastic developer, I'd love to connect and discuss how we can collaborate to create something truly unique.`;
 
 export const FrontEnd = [
   "React",
+  "Preact",
+  "NextJs",
   "Angular",
   "HTML",
   "CSS",
+  "Tailwind CSS",
   "JavaScript",
   "TypeScript",
   "Blazor",
 ];
 export const BackEnd = [".NET", ".NET Core", "C#", "Python", "ASP.NET"];
-export const Database = ["SQL Server", "Firebase"];
+export const Database = ["SQL Server", "Firebase", "MongoDB"];
 export const Cloud = ["AWS", "Azure"];
 export const testing = ["Cypress", "React Testing Library", "Redux", "Webpack"];
 
-export const gapYear = [{ role: "Jnr FOH Manager" }];
+export const gapYear = [
+  { role: "Jnr FOH Manager" },
+  { role: "Freelance Developer" },
+];
 export const Exp = [
+  {
+    role: "Senior Developer",
+    code: "SDE",
+    time: "May 2019 - Present",
+    company: "Sollucet Teche Pvt Ltd (Contractor : Trane technologies)",
+    location: "Bangalore",
+    exp: [
+      "Build and deliver scalable frontend applications using React.js and Next.js, developing real-time IoT dashboards with WebSockets and integrating REST Web APIs for seamless data flow.",
+      "Drive end-to-end feature delivery by managing requirements, prioritizing tasks, and collaborating with cross-functional teams to ensure high-quality, production-ready releases.",
+      "Design intuitive, user-centric interfaces and actively engage with stakeholders and customers to gather requirements, refine features, and align technical solutions with business goals.",
+    ],
+    img: sde,
+  },
   {
     role: "Senior Systems Engineer",
     code: "SSE",

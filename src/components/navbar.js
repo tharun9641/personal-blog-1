@@ -2,17 +2,17 @@ import "../css/nav.css";
 import { Link } from "react-scroll";
 import tp from "../logo/TP.png";
 import Logo from "./logo";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 const Navbar = () => {
-  const [isMobile, setMobile] = useState(false);
-  const CheckDevice = () => {
-    return /Mobi|Android/i.test(navigator.userAgent);
-  };
+  // const [isMobile, setMobile] = useState(false);
+  // const CheckDevice = () => {
+  //   return /Mobi|Android/i.test(navigator.userAgent);
+  // };
 
-  useEffect(() => {
-    setMobile(CheckDevice());
-  }, []);
+  // useEffect(() => {
+  //   setMobile(CheckDevice());
+  // }, []);
   return (
     <section className="nav-container">
       <div className="nav-block">
@@ -46,7 +46,7 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-        {!isMobile && (
+        {/* {!isMobile && (
           <div className="sub-translate">
             <div className="sub-header">Translate</div>
             <div className="sub-item">
@@ -70,7 +70,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-        )}
+        )} */}
       </div>
       <div style={{ position: "fixed", right: "2.5%", top: "7.5%" }}>
         <Logo />
